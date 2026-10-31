@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <a href="index.html">Home</a> | <a href="form.html">Registration</a></p>
+    <h1>Student Registration Form</h1>
+    <form action="thanks.html" method="get">
+        <p>
+            Full Name:
+            <input type="text" name="fullname" required placeholder="Enter your full name">
+        </p>
+        <p>
+            Registration No:
+            <input type="text" name="regno" required placeholder="e.g. NUTECH-123">
+        </p>
+        <P>
+            Email:
+            <input type="email" name="email" required placeholder="Enter your email">
+        </P>
+        <p>
+            phone:
+            <input type="tel" name="phone" placeholder="03474515319">
+        </p>
+        <p></p>
+        Age:
+        <input type="number" name="age" min="16" max="40" placeholder="16-40">
+        </p>
+        <p>
+            Date of Birth:
+            <input type="date" name="dob">
+            </p>
+            <p>
+                Gender:
+                <input type="radio" name="gender"
+                value="Female"> Female
+            </p>
+            <p>
+                Department:
+                <select name="department">
+                    <option>AI</option>
+                    <option>CS</option>
+                    <option>SE</option>
+                    <option>EE</option>
+                </select>
+            </p>
+            <p>
+                Interests:
+                <input type="checkbox" name="interests" value="web"> web
+                <input type="checkbox" name="interests" value="AI"> AI
+                <input type="checkbox" name="interests" value="Games"> Games
+            </p>
+            <p>
+                Address:<br>
+                <textarea name="address" rows="4" cols="30"></textarea>
+                </p>
+                <p>
+                <input type="submit" value="Register">
+                <input type="reset" value="clear">
+                </p>
+        </form>
+</body>
+</html>
